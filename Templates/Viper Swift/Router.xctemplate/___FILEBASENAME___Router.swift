@@ -13,8 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___Routing: RoutingProtocolBase {
     weak var viewController:___FILEBASENAMEASIDENTIFIER___ViewController!
     weak var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
     weak var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor!
-    override required init() {
-        super.init()
+    required init() {
     }
     
     func loadView() -> ___FILEBASENAMEASIDENTIFIER___ViewController{
