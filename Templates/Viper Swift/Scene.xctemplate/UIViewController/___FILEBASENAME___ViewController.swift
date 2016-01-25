@@ -10,7 +10,7 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewProtocolPresenter,ViewControllerProtocolBase {
+class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ViewControllerProtocolBase {
     typealias PresenterType = ___FILEBASENAMEASIDENTIFIER___PresenterProtocolView
     
     var presenter:___FILEBASENAMEASIDENTIFIER___PresenterProtocolView!
@@ -47,7 +47,11 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
     }
     */
     
-    //MARK: - ProtocolPresenter
     
+    
+}
+
+//MARK: - ProtocolPresenter
+extension ___FILEBASENAMEASIDENTIFIER___ViewController_: ___FILEBASENAMEASIDENTIFIER___ViewProtocolPresenter{
     
 }

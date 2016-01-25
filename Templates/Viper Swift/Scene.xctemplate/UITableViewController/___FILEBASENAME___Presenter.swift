@@ -9,7 +9,7 @@
 //
 
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter:___FILEBASENAMEASIDENTIFIER___PresenterProtocolView,___FILEBASENAMEASIDENTIFIER___PresenterProtocolInteractor,PresenterProtocolBase {
+class ___FILEBASENAMEASIDENTIFIER___Presenter:PresenterProtocolBase {
     typealias ViewControllerType = protocol<___FILEBASENAMEASIDENTIFIER___ViewProtocolPresenter>
     typealias RoutingType = ___FILEBASENAMEASIDENTIFIER___Routing
     
@@ -21,10 +21,19 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter:___FILEBASENAMEASIDENTIFIER___Pres
         // init of presenter
     }
     
-    //MARK: - ProtocolView
+    
+    
+}
+
+//MARK: - ProtocolView
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocolView{
+    
     func viewLoaded() {
         //NOTE: load data on the begining of the view
     }
+}
+
+//MARK: - ProtocolInteractor
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocolInteractor{
     
-    //MARK: - ProtocolInteractor
 }
