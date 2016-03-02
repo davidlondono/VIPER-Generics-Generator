@@ -103,6 +103,12 @@ protocol ViewControllerProtocolBase: ViewProtocolPresenterBase {
 }
 
 protocol PresenterProtocolViewBase: class {
+
+    func viewWillAppear()
+    func viewDidAppear()
+    func viewWillDisappear()
+    func viewDidDisappear()
+    func viewDidLoad()
 }
 extension PresenterProtocolViewBase {
     func viewWillAppear(){}
